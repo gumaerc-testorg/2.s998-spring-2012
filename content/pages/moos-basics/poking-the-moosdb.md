@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: MOOS Basics
+parent_type: CourseSection
 parent_uid: dab1dc4f-1da2-1ac2-f601-43a182449e27
 title: Poking the MOOSDB
 uid: 5822be6d-78f0-0532-ffe7-b39618190670

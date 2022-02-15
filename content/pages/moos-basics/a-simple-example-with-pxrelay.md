@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: MOOS Basics
+parent_type: CourseSection
 parent_uid: dab1dc4f-1da2-1ac2-f601-43a182449e27
 title: A Simple Example with pXRelay
 uid: 9aeae296-987a-a81f-109a-2cc49293b92a

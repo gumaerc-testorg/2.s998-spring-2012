@@ -1,6 +1,10 @@
 ---
 content_type: page
+learning_resource_types:
+- Labs
+ocw_type: CourseSection
 parent_title: Labs
+parent_type: CourseSection
 parent_uid: 52bcf20c-777a-b4ef-31d4-6d96edf20ad1
 title: Lab 7 Updates
 uid: 0e1c4f16-9177-fa24-07c9-42dd4fa282be

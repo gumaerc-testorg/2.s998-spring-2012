@@ -1,6 +1,10 @@
 ---
 content_type: page
+learning_resource_types:
+- Labs
+ocw_type: CourseSection
 parent_title: Labs
+parent_type: CourseSection
 parent_uid: 52bcf20c-777a-b4ef-31d4-6d96edf20ad1
 title: Lab 4 Updates
 uid: 3c8cb2f7-8c9e-f1cb-b739-8f038f22de49

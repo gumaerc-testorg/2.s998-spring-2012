@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: MOOS Basics
+parent_type: CourseSection
 parent_uid: dab1dc4f-1da2-1ac2-f601-43a182449e27
 title: Launching a Mission with pAntler
 uid: f084e04e-e786-d502-fe78-239c1e543b2c
