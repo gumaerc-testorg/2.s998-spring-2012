@@ -22,7 +22,7 @@ Scoping the MOOSDB with uXMS:
 uXMS is a terminal based scope. It may be launched from the command-line, passing it a .moos file. Several command-line options are available; a full list may be seen by passing it the—**help** command-line option. If simply a MOOSDB is running, launching uXMS may look like:
 
 ```
- $ uXMS moosdb_alpha.moos --all --show=time    
+ **$ uXMS moosdb_alpha.moos --all --show=time**    
  ****************************************************    
  *                                                  *    						   
  *         This is MOOS Client                      *                 
@@ -56,7 +56,7 @@ Scoping the MOOSDB with uMS
 uMS is a GUI-based tool for scoping the MOOSDB. It may be invoked from the command-line similarly by passing it a .moos file describing where a MOOSDB is running:
 
 ```
- $ uMS moosdb_alpha.moos 
+ **$ uMS moosdb_alpha.moos** 
 ```
 
 Upon launch, and clicking the "Connect" button , a new window should open.

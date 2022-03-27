@@ -72,11 +72,11 @@ The below mission file contains a configuration for two instances of the pXRelay
 Upon launch, the two pXRelay apps are in a stalemate, each waiting for the other to make the first posting. We can break this stalemate with uPokeDB:
 
 ```
- $ uPokeDB xrelay.moos PEARS=1 
+ **$ uPokeDB xrelay.moos PEARS=1** 
 ```
 
 This should get things going. Now it would be good to see it all running by launching a scope:
 
 ```
- $ uXMS xrelay.moos --all --show=time 
+ **$ uXMS xrelay.moos --all --show=time** 
 ```

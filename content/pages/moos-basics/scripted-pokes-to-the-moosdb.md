@@ -17,7 +17,7 @@ Basic uTimerScript Usage
 uTimerScript is configured with its own block in the MOOS configuration file. The general format is below. The primary entries are the events themselves, defined by a MOOS variable, value, and time or time-range when the event is to occur. There are many options for configuring the script. These options are described in the [IvP Helm Documentation and MOOS Documentation](http://oceanai.mit.edu/moos-ivp/docs.html), but a quick look at the options can be seen by typing "uTimerScript—example" on the command line.
 
 ```
- ProcessConfig = uTimerScript
+ `ProcessConfig = uTimerScript
  {
    event = var=, val=, time=
    event = var=, val=, time=
@@ -25,7 +25,8 @@ uTimerScript is configured with its own block in the MOOS configuration file. Th
    event = var=, val=, time=
 
     [OPTIONS]
- } 
+ }` 
+
 ```
 
 Further options exist beyond the vanilla launch configuration described above, including (a) the ability to launch a given app under an aliased name, (b) specifying command-line arguments to app at launch time and more. See the [MOOS documentation](http://www.robots.ox.ac.uk/~mobile/MOOS/wiki/pmwiki.php/Main/Documentation).
@@ -36,7 +37,7 @@ A Simple Example with uTimerScript
 The below mission file contains a uTimerScript script for repeatedly posting the variable 'COUNTER\_A' with values 1–10 in ascending order roughly once every half second. The last event in the script is posted at time chosen from a random five second interval.
 
 ```
- // (wget http://oceanai.mit.edu/2.S998/examples/utscript.moos)
+ `// (wget http://oceanai.mit.edu/2.S998/examples/utscript.moos)
  ServerHost = localhost
  ServerPort = 9000
  Community  = alpha
@@ -74,13 +75,14 @@ The below mission file contains a uTimerScript script for repeatedly posting the
 
     reset_max  = nolimit
    reset_time = all-posted
- } 
+ }` 
+
 ```
 
 The mission may be launched from the command-line with:
 
 ```
- $ pAntler utscript.moos 
+ **$ pAntler utscript.moos** 
 ```
 
 This should open a new console window for uXMS displaying the variables COUNTER\_A variable repeatedly incrementing from 1 to 10. Note that reaching 10 happens somewhere between 0.5 and 5.5 seconds after reaching 9.

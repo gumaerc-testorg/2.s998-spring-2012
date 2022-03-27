@@ -22,8 +22,7 @@ Scoping the MOOSDB with uXMS
 uXMS is a terminal based scope. It may be launched from the command-line, passing it a .moos file. Several command-line options are available; a full list may be seen by passing it the—**help** command-line option. If simply a MOOSDB is running, launching uXMS may look like:
 
 ```
-
-$ uXMS moosdb_alpha.moos --all --show=time
+ **$ uXMS moosdb_alpha.moos --all --show=time**
   ****************************************************
   *                                                  *
   *       This is MOOS Client                        *
@@ -48,7 +47,7 @@ $ uXMS moosdb_alpha.moos --all --show=time
    DB_CLIENTS                  19.99            "uXMS_318,DBWebServer,"
    DB_TIME                     19.99            1329084452.15727
    DB_UPTIME                   19.99            20.0471
-   -- displaying all variables --
+   -- displaying all variables -- 
 ```
 
 The three variables shown are all published by the MOOSDB. The user may choose whether or not to show the variable (S)ource, (T)ime of post, or (C)ommunity from where the post was made. key feature of uXMS vs. uMS is the ability to specify on the command-line exactly which subset of variables to scope, possibly with color-coding. This is helpful when there are hundreds of variables in the DB.
@@ -59,7 +58,7 @@ Scoping the MOOSDB with uMS
 uMS is a GUI-based tool for scoping the MOOSDB. It may be invoked from the command-line similarly by passing it a .moos file describing where a MOOSDB is running:
 
 ```
-$ uMS moosdb_alpha.moos
+**$ uMS moosdb_alpha.moos**
 ```
 
 Upon launch, and clicking the "Connect" button, you should see a new window.

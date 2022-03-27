@@ -20,7 +20,7 @@ In the Alpha example, the moos-ivp version of a Hello World program, the vehicle
 More information on the uSimMarine simulator and configuration options can be found in the ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[moos-ivp autonomy utilities documentation (PDF - 29.2MB)](http://oceanai.mit.edu/moos-ivp-pdf/moosivp-tools.pdf).
 
 ```
-     BUOYANCY_RATE        = 0.025     MAX_DEPTH_RATE       = 5     MAX_DEPTH_RATE_SPEED = 2.0     DEFAULT_WATER_DEPTH  = 400 
+ BUOYANCY_RATE        = 0.025     MAX_DEPTH_RATE       = 5     MAX_DEPTH_RATE_SPEED = 2.0     DEFAULT_WATER_DEPTH  = 400 
 ```
 
 ### Modifications to the pMarinePID MOOS module:
@@ -28,7 +28,7 @@ More information on the uSimMarine simulator and configuration options can be fo
 More information on the uSimMarine simulator and configuration options can be found in the utilities ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[moos-ivp autonomy documentation (PDF - 29.2MB)](http://oceanai.mit.edu/moos-ivp-pdf/moosivp-tools.pdf).
 
 ```
-     DEPTH_CONTROL = true        //Pitch PID controller     PITCH_PID_KP                   = 1.5     PITCH_PID_KD                   = 1.0     PITCH_PID_KI                   = 0     PITCH_PID_INTEGRAL_LIMIT       = 0        //ZPID controller     Z_TO_PITCH_PID_KP              = 0.12     Z_TO_PITCH_PID_KD              = 0     Z_TO_PITCH_PID_KI              = 0.004     Z_TO_PITCH_PID_INTEGRAL_LIMIT  = 0.05     MAXPITCH     = 15     MAXELEVATOR  = 13 
+ DEPTH_CONTROL = true        //Pitch PID controller     PITCH_PID_KP                   = 1.5     PITCH_PID_KD                   = 1.0     PITCH_PID_KI                   = 0     PITCH_PID_INTEGRAL_LIMIT       = 0        //ZPID controller     Z_TO_PITCH_PID_KP              = 0.12     Z_TO_PITCH_PID_KD              = 0     Z_TO_PITCH_PID_KI              = 0.004     Z_TO_PITCH_PID_INTEGRAL_LIMIT  = 0.05     MAXPITCH     = 15     MAXELEVATOR  = 13 
 ```
 
 ### Modifications to the pHelmIvP MOOS module:

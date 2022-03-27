@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Lab 7 Updates
 parent_type: CourseSection
+parent_uid: 0e1c4f16-9177-fa24-07c9-42dd4fa282be
 resourcetype: Other
 title: lab07-mid-sln.tgz
 uid: 134b04d3-4970-bbd3-bc39-e0783368fec6
