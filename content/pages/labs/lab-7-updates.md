@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: This section provides supporting material for Lab 7.
 learning_resource_types:
 - Labs
 ocw_type: CourseSection
@@ -20,7 +21,7 @@ A Simple Launch Script
 The script first checks for a numerical value in the command line arguments. If it finds one, it interprets this a request for a time warp. Then it does nothing more than launch pAntler for the two vehicles, and send a bit of output to the screen. The first line in the script is standard for shell scripts and indicates which shell is to be used for executing the script. To run the script, just type **./launch.sh 12** on the command line, to launch things with a time warp of 12.
 
 ```
- #!/bin/bash     WARP=1   #-------------------------------------------------------   #  Part 1: handle command-line args   #-------------------------------------------------------   for ARGI; do       if [ "${ARGI//[^0-9]/}" = "$ARGI" ]; then            WARP=$ARGI       fi   done    #-------------------------------------------------------   #  Part 2: Launch the processes   #-------------------------------------------------------    printf   "Launching ... (WARP=%s) \n" $WARP   pAntler alpha.moos --MOOSTimeWarp=$WARP >& /dev/null &   sleep 1   pAntler shoreside.moos --MOOSTimeWarp=$WARP >& /dev/null &   printf "Done Launching... \n" 
+  #!/bin/bash     WARP=1   #-------------------------------------------------------   #  Part 1: handle command-line args   #-------------------------------------------------------   for ARGI; do       if [ "${ARGI//[^0-9]/}" = "$ARGI" ]; then            WARP=$ARGI       fi   done    #-------------------------------------------------------   #  Part 2: Launch the processes   #-------------------------------------------------------    printf   "Launching ... (WARP=%s) \n" $WARP   pAntler alpha.moos --MOOSTimeWarp=$WARP >& /dev/null &   sleep 1   pAntler shoreside.moos --MOOSTimeWarp=$WARP >& /dev/null &   printf "Done Launching... \n" 
 ```
 
 Misc. Other Updates
@@ -36,7 +37,7 @@ Misc. Other Updates
 Partial Solutions
 -----------------
 
-[Example solutions to lab exercises (TGZ)]({{< baseurl >}}/resources/lab07-mid-sln) (the ones given as precursors to the hand-in assignments).
+{{% resource_link 134b04d3-4970-bbd3-bc39-e0783368fec6 "Example solutions to lab exercises (TGZ)" %}} (the ones given as precursors to the hand-in assignments).
 
 To untar:
 
@@ -44,7 +45,7 @@ To untar:
 tar xvfz filename.tgz
 ```
 
-[Example solutions to exercise in Section 3.1 in Lab 07 (TGZ)]({{< baseurl >}}/resources/lab07miss_files).
+{{% resource_link 9e70e0c7-6eb5-1378-431d-30b35418c6ab "Example solutions to exercise in Section 3.1 in Lab 07 (TGZ)" %}}.
 
 To untar:
 

@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This section provides links to resources for learning C++ and other related
+  resources for the class.
 learning_resource_types: []
 ocw_type: CourseSection
 title: Related Resources

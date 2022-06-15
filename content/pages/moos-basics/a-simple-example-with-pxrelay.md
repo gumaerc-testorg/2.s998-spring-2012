@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: This page describes pXRelay usage and gives a simple example with pXRelay.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: MOOS Basics
@@ -17,7 +18,7 @@ pXRelay is a simple MOOS app designed solely to illustrate basic functions of a 
 Where to get more information:
 
 *   Type pXRelay—example on the command line.
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[An Overview of MOOS-IvP and a Users Guide to the IvP Helm (Section 3.8) (PDF)](http://oceanai.mit.edu/moos-ivp-pdf/moosivp-helm.pdf)
+*   [An Overview of MOOS-IvP and a Users Guide to the IvP Helm (Section 3.8) (PDF)](http://oceanai.mit.edu/moos-ivp-pdf/moosivp-helm.pdf)
 
 Basic pXRelay Usage
 -------------------
@@ -72,11 +73,11 @@ The below mission file contains a configuration for two instances of the pXRelay
 Upon launch, the two pXRelay apps are in a stalemate, each waiting for the other to make the first posting. We can break this stalemate with uPokeDB:
 
 ```
- **$ uPokeDB xrelay.moos PEARS=1** 
+ $ uPokeDB xrelay.moos PEARS=1 
 ```
 
 This should get things going. Now it would be good to see it all running by launching a scope:
 
 ```
- **$ uXMS xrelay.moos --all --show=time** 
+ $ uXMS xrelay.moos --all --show=time 
 ```

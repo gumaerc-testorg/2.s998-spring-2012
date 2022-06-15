@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: This section provides supporting material for Lab 15.
 learning_resource_types:
 - Labs
 ocw_type: CourseSection
