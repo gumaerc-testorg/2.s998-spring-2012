@@ -1,6 +1,11 @@
 ---
 content_type: page
+description: This page describes how to launch the MOOSDB from the perspective of
+  the first-time user.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: MOOS Basics
+parent_type: CourseSection
 parent_uid: dab1dc4f-1da2-1ac2-f601-43a182449e27
 title: Launching the MOOSDB
 uid: 72c27940-a2e0-2452-abf2-720d0762289d

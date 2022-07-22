@@ -1,6 +1,11 @@
 ---
 content_type: page
+description: This section provides supporting material for Lab 7.
+learning_resource_types:
+- Labs
+ocw_type: CourseSection
 parent_title: Labs
+parent_type: CourseSection
 parent_uid: 52bcf20c-777a-b4ef-31d4-6d96edf20ad1
 title: Lab 7 Updates
 uid: 0e1c4f16-9177-fa24-07c9-42dd4fa282be
@@ -32,7 +37,7 @@ Misc. Other Updates
 Partial Solutions
 -----------------
 
-[Example solutions to lab exercises (TGZ)]({{< baseurl >}}/resources/lab07-mid-sln) (the ones given as precursors to the hand-in assignments).
+{{% resource_link 134b04d3-4970-bbd3-bc39-e0783368fec6 "Example solutions to lab exercises (TGZ)" %}} (the ones given as precursors to the hand-in assignments).
 
 To untar:
 
@@ -40,7 +45,7 @@ To untar:
 tar xvfz filename.tgz
 ```
 
-[Example solutions to exercise in Section 3.1 in Lab 07 (TGZ)]({{< baseurl >}}/resources/lab07miss_files).
+{{% resource_link 9e70e0c7-6eb5-1378-431d-30b35418c6ab "Example solutions to exercise in Section 3.1 in Lab 07 (TGZ)" %}}.
 
 To untar:
 
