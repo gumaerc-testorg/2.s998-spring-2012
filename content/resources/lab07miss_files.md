@@ -2,6 +2,7 @@
 content_type: resource
 description: This is a supporting file for lab 7.
 file: /courses/2-s998-marine-autonomy-sensing-and-communications-spring-2012/9e70e0c76eb51378431d30b35418c6ab_lab07miss_files.tgz
+file_size: 4575
 file_type: application/x-tar
 learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
