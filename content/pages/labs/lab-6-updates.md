@@ -2,7 +2,7 @@
 content_type: page
 description: This section provides supporting material for Lab 6.
 learning_resource_types:
-- Labs
+- Laboratory Assignments
 ocw_type: CourseSection
 parent_title: Labs
 parent_type: CourseSection
