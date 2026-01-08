@@ -14,7 +14,7 @@ This page describes how to launch a set of MOOS applications with pAntler. In th
 
 Where to get more information:
 
-*   pAntler: {{% resource_link "6eeee93d-0774-4959-a098-6649d0ce3a49" "The MOOS Documents page" %}}
+*   pAntler: [The MOOS Documents page](http://www.robots.ox.ac.uk/~mobile/MOOS/wiki/pmwiki.php/Main/Documentation)
 
 Basic pAntler Usage
 -------------------
@@ -34,7 +34,7 @@ ProcessConfig = ANTLER
 }
 ```
 
-Further options exist beyond the vanilla launch configuration described above, including (a) the ability to launch a given app under an aliased name, (b) specifying command-line arguments to app at launch time and more. See the {{% resource_link "6eeee93d-0774-4959-a098-6649d0ce3a49" "documentation" %}}.
+Further options exist beyond the vanilla launch configuration described above, including (a) the ability to launch a given app under an aliased name, (b) specifying command-line arguments to app at launch time and more. See the [documentation](http://www.robots.ox.ac.uk/~mobile/MOOS/wiki/pmwiki.php/Main/Documentation).
 
 An Example: Launching the MOOSDB along with uXMS
 ------------------------------------------------

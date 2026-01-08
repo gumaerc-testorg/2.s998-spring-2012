@@ -46,8 +46,8 @@ Equipment
 
 This class will be contain several in-water project assignments using small unmanned surface craft launched from the MIT Sailing Pavilion. Wiki pages are available for both the Clearpath Robotics Kingfisher vehicles and the Robotic Marine Systems autonomous kayaks. Students will have write access to the wiki pages during the semester.
 
-*   {{% resource_link "bb68b166-cc32-4e85-8227-fc17377f51b9" "Kingfishers" %}}
-*   {{% resource_link "3ae8f1e7-383c-4977-a97e-160d1b433433" "Autonomous Kayaks" %}}
+*   [Kingfishers](http://oceanai.mit.edu/kfisher/pmwiki/pmwiki.php)
+*   [Autonomous Kayaks](https://www.technologyreview.com/s/407126/autonomous-kayaks/)
 
 Grading
 -------

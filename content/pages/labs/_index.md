@@ -122,17 +122,17 @@ Intro to Helm Autonomy
 
 Lab 6 video clips:
 
-\-{{% resource_link "b7298f09-87ab-4c25-9413-c44b81c20a0f" "Modified alpha mission 1" %}}
+\-[Modified alpha mission 1](http://youtu.be/l1YUycDw3TY)
 
-\-{{% resource_link "dc5d90b4-3f8a-4ff9-a144-43868961fc98" "Modified alpha mission 2" %}}
+\-[Modified alpha mission 2](http://youtu.be/NGyC9cofIkk)
 
-\-{{% resource_link "9e798c79-c77e-4ccb-a31f-cc3e5330bd12" "Bravo mission 1" %}}
+\-[Bravo mission 1](http://youtu.be/r1DTz7cSY7M)
 
-\-{{% resource_link "12083f17-ac3c-4381-9ca7-1d6ff857efa5" "Bravo mission 2" %}}
+\-[Bravo mission 2](http://youtu.be/JIi-dpHoib8)
 
-\-{{% resource_link "e3ef1a3e-eb69-4a3a-a050-c9f48b7b6d6b" "Bravo UUV mission 1" %}}
+\-[Bravo UUV mission 1](http://youtu.be/cMVXUSs-7n0)
 
-\-{{% resource_link "c5982640-7373-455a-87d8-397bd11b9493" "Bravo UUV mission 2" %}}
+\-[Bravo UUV mission 2](http://youtu.be/DSocUycqqu4)
 
 
 {{< tdclose >}}
@@ -155,11 +155,11 @@ Sim Multi-vehicle Ops Pt1
 
 Lab 7 video clips:
 
-\-{{% resource_link "5daa8db5-bf78-4f73-a5ee-dc801eeea7f8" "Times double loiter" %}}
+\-[Times double loiter](http://youtu.be/MqAdlxnLiE8)
 
-\-{{% resource_link "f740af2d-c87e-4448-9b83-e46c40dd9e3d" "Timed double traverse 1" %}}
+\-[Timed double traverse 1](http://youtu.be/otZ0UyldyyI)
 
-\-{{% resource_link "de535aac-dbf9-4422-aeb3-1c65af386b29" "Timed double traverse 2" %}}
+\-[Timed double traverse 2](http://youtu.be/rC_vPFzOsSs)
 
 
 {{< tdclose >}}
@@ -180,7 +180,7 @@ Sim Multi-vehicle Ops Pt2
 
 Lab 8 video clips:
 
-\-{{% resource_link "bca2e77b-80e2-406c-b655-9e383604e6e7" "Timed double traverse with replanning" %}}
+\-[Timed double traverse with replanning](http://youtu.be/jHepobS7zoA)
 
 
 {{< tdclose >}}
@@ -203,7 +203,7 @@ Autonomous Collab Search 1–3
 
 Lab 9 video clips:
 
-\-{{% resource_link "ed689771-f043-4cef-9375-b3248166f7ad" "Vehicle loitering mission" %}}
+\-[Vehicle loitering mission](http://youtu.be/fTPugowyBg0)
 
 
 {{< tdclose >}}
